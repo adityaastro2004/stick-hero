@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.Scene3">
+    <children>
+        <ImageView fx:id="TreeImage" fitHeight="402.0" fitWidth="610.0" layoutX="-1.0" layoutY="2.0" opacity="0.71" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@41524.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="play_again_button" layoutX="100.0" layoutY="289.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#handlePlayAgain" prefHeight="70.0" prefWidth="76.0" style="-fx-background-color: RED; -fx-background-radius: 45px;" text="Play Again" textAlignment="CENTER" textFill="#2e2a2a" wrapText="true" />
+        <Button fx:id="exit_button" layoutX="228.0" layoutY="289.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="122.0" style="-fx-background-color: RED; -fx-background-radius: 10px;" text="EXIT" textFill="#181818">
+            <font>
+                <Font size="17.0" />
+            </font></Button>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="175.0" layoutY="27.0" prefHeight="85.0" prefWidth="252.0" style="-fx-background-color: transparent; -fx-text-fill: Black;" text="Game Over">
+            <font>
+                <Font name="Serif Bold" size="43.0" />
+            </font>
+        </Label>
+        <Button fx:id="revive" layoutX="387.0" layoutY="289.0" mnemonicParsing="false" onAction="#handlerevive" prefHeight="70.0" prefWidth="76.0" style="-fx-background-color: RED; -fx-background-radius: 45px;" text="Revive" />
+      <Label fx:id="label" layoutX="228.0" layoutY="113.0" prefHeight="154.0" prefWidth="199.0" text="Label" textAlignment="JUSTIFY" textFill="#050505">
+         <font>
+            <Font name="Arial" size="3.0" />
+         </font></Label>
+    </children>
+</AnchorPane>
