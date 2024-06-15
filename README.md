@@ -47,7 +47,7 @@ To run the game locally, follow these steps:
 
 ## Development
 
-This game is built using HTML, CSS, and JavaScript. Feel free to explore the code and make improvements or modifications.
+This game is built using Java, JavaFX and Scene Builder. Please feel free to explore the code and make any improvements or modifications.
 
 ### Project Structure
 
