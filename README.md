@@ -1,6 +1,6 @@
 # Stick Hero Game Clone
 
-This repository contains a clone of the popular mobile game "Stick Hero". The goal of the game is to help the hero cross from one platform to another by stretching a stick. The longer the stick, the further the hero can go. The game challenges your precision and timing skills.
+This repository contains a clone of the popular mobile game "Stick Hero". The game aims to help the hero cross by stretching a stick from one platform to another. The longer the stick, the further the hero can go. The game challenges your precision and timing skills.
 
 ## Features
 
@@ -11,7 +11,6 @@ This repository contains a clone of the popular mobile game "Stick Hero". The go
 
 ## Screenshots
 
-Include some screenshots of your game to showcase its design and gameplay. For example:
 ![Screenshot 2024-06-15 at 10 24 35 PM](https://github.com/adityaastro2004/stick-hero/assets/75080320/8d261025-d453-46a6-9312-14357943a9c4)
 ![Screenshot 2024-06-15 at 10 24 55 PM](https://github.com/adityaastro2004/stick-hero/assets/75080320/e8bc92e1-687e-4b2d-8954-080d05cb37dd)
 
@@ -29,7 +28,7 @@ To run the game locally, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/stick-hero-clone.git
+    git clone https://github.com/adityaastro2004/stick-hero-clone.git
     ```
 
 2. **Navigate to the project directory:**
@@ -48,13 +47,6 @@ To run the game locally, follow these steps:
 ## Development
 
 This game is built using Java, JavaFX and Scene Builder. Please feel free to explore the code and make any improvements or modifications.
-
-### Project Structure
-
-- `index.html`: The main HTML file.
-- `style.css`: The CSS file for styling the game.
-- `main.js`: The JavaScript file containing the game logic.
-- `assets/`: Directory containing game assets such as images and sounds.
 
 ### Contributing
 
